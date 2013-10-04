@@ -18,7 +18,7 @@ public class FibRecursion {
 		FibRecursion fibobj = new FibRecursion();		
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("Fibonacci through Memoization, Enter the value of n:");		
+		System.out.println("Fibonacci through Recursion, Enter the value of n:");		
 		int n = Integer.parseInt(scan.next());
 
 		long startTime = System.currentTimeMillis();
